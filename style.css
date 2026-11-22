@@ -155,3 +155,24 @@ nav {
   background-color: #e9d5ff;
   color: #251138;
 }
+.entete nav {
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+.bloc-e5 {
+  margin-top: 24px;
+  padding: 24px;
+  background-color: #1d1533;
+  border-left: 4px solid #8b5cf6;
+  border-radius: 12px;
+}
+
+.bloc-e5 h2 {
+  margin: 0 0 12px;
+  color: #e9d5ff;
+}
+
+.bloc-e5 p {
+  margin: 0;
+}
