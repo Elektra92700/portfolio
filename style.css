@@ -188,5 +188,81 @@ main section[id] {
     scroll-margin-top: 9rem;
   }
 }
+.contact-cartes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
 
+.contact-carte {
+  padding: 20px;
+  background-color: #101632;
+  border: 1px solid #514174;
+  border-radius: 12px;
+}
 
+.contact-carte h3 {
+  margin: 0 0 12px;
+  color: #e9d5ff;
+}
+
+.contact-carte a {
+  display: inline-block;
+  color: #e9d5ff;
+}
+
+.contact-carte .contact-email {
+  padding: 10px 14px;
+  border-radius: 8px;
+  background-color: #e9d5ff;
+  color: #251138;
+  font-weight: bold;
+}
+
+.pied-page {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 16px;
+  background-color: #101632;
+  border-top: 1px solid #3b2b61;
+}
+
+.pied-page p {
+  grid-column: 2;
+  margin: 0;
+  text-align: center;
+}
+
+.pied-page .retour-haut {
+  grid-column: 3;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #8b5cf6;
+  border-radius: 50%;
+  color: #e9d5ff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.pied-page .retour-haut:hover,
+.pied-page .retour-haut:focus-visible {
+  background-color: #e9d5ff;
+  color: #251138;
+}
+.pied-page .lien-linkedin {
+  grid-column: 1;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #8b5cf6;
+  border-radius: 50%;
+  color: #e9d5ff;
+  font-weight: bold;
+  text-decoration: none;
+}
